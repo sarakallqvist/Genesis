@@ -1,0 +1,49 @@
+body {
+    color: #111111;
+    margin-top: 61px;
+    margin-left: 125px;
+    margin-right: 125px;
+    font-family: 'Mulish', sans-serif;
+}
+h1 {
+    color: #4A4FF2;
+    font-size: 22px;
+    letter-spacing: -0.42px;
+    grid-column: 1/span 1;
+    grid-row: 3/4;
+    margin-bottom: 32px;
+}
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 150%;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+h3 {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 700;
+    }
+
+h4 {
+    font-size: 22px;
+    font-weight: bold;
+}
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+h6 {
+    font-size:16px;
+    line-height: 26px;
+    font-weight: normal;
+
+}
+p {
+    font-size: 18px;
+    line-height: 23px;
+}
+table {
+    border-spacing: 40px 20px;
+}

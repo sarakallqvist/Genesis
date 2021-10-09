@@ -1,0 +1,24 @@
+.grid_container__head {
+    display: grid;
+    grid-gap: 30px;
+    max-width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+}
+.logo-head {
+    grid-column: 1/span 10;
+    text-decoration: none;
+
+}
+.grid-item_head {
+    color:#111111;
+    text-align: end;
+    font-size: 18px;
+    text-decoration: none;
+}
+.projects-head {
+    grid-column: 11/span 1;
+}
+.contact-head {
+    grid-column: 12/span 1;
+}

@@ -1,0 +1,36 @@
+.grid_container__foot {
+    display: grid;
+    grid-gap: 30px;
+    max-width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+
+    padding-top: 90px;
+    padding-bottom: 50px;
+    border-top: 2px #D8D8D8 solid;
+}
+.grid-item_foot {
+    text-decoration: none;
+    color:#111111;
+    text-align: end;
+    font-size: 18px;
+}
+.logo-foot {
+    grid-column: 1/span 9;
+
+    }
+.projects-foot {
+grid-column: 9/span 1;
+}
+.contact-foot {
+grid-column: 10/span 1;
+}
+.social-foot {
+grid-column: 11/span 2;
+display: inline-flex;
+justify-content: space-evenly;
+}
+/*.social-logo {
+    margin-left: 30px;
+    }
+*/

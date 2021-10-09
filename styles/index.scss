@@ -1,0 +1,160 @@
+
+@import "styling";
+@import "header";
+@import "footer";
+
+.grid_container__main {
+    display: grid;
+    grid-gap: 30px;
+    max-width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat (50, 1fr);
+}
+
+.title {
+    grid-column: 1/span 7;
+    grid-row: 4/span 3;
+}
+.rectangle {
+    width: 30px;
+    height: 2px;
+    background-color: #979797;
+    margin-bottom: 10px;
+}
+.quote {
+    font-style: italic;
+    grid-column: 9/span 3;
+    grid-row: 6/span 1;
+}
+.grid_container_gallery {
+    display: grid;
+    grid-gap: 20px;
+    max-width: 100%;
+    min-height: fit-content;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat (36,1fr);
+    margin-bottom: 93px;
+}
+    .grid_item_gallery {
+        overflow: hidden;
+    }
+    .gallery-image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+        .dancer {
+            grid-column: 1/5;
+            grid-row: 9/15;
+    }
+        .brain-wave {
+            grid-column: 5/9;
+            grid-row: 9/14;
+            }
+        .face-flower {
+            grid-column: 9/13;
+            grid-row: 9/18;
+            }
+        .cactus {
+            grid-column: 1/5;
+            grid-row:15/22;
+            }
+        .liberty {
+            grid-column: 5/9;
+            grid-row: 14/20;
+            }
+        .face-paint {
+            grid-column: 9/13;
+            grid-row: 18/23;
+            }
+        .head-stand {
+            grid-column: 1/5;
+            grid-row: 22/29;
+            }
+        .girl-walking {
+            grid-column: 5/9;
+            grid-row: 20/28;
+            }
+        .piano {
+            grid-column: 9/13;
+            grid-row: 23/31;
+            }
+        .poppy-field {
+            grid-column: 1/5;
+            grid-row: 29/37;
+            }
+        .desert {
+            grid-column: 5/9;
+            grid-row: 28/37;
+            }
+        .green-hills-square {
+            grid-column: 9/13;
+            grid-row: 31/37;
+            }
+.group {
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin-bottom: 100px;
+
+    }
+    .group_headline {
+        max-width: 635px;
+        min-height: 106px;
+    }
+    .group_list {
+        line-height: 200%;
+        max-width: 300px;
+        min-height: 90px;
+        margin-left: 30px;
+    }
+
+
+.grid_container_awards {
+display: grid;
+grid-gap: 20px;
+max-width: 100%;
+min-height: fit-content;
+grid-template-columns: repeat(12,1fr);
+grid-template-rows: repeat (6,1fr);
+padding-top: 50px;
+padding-bottom: 50px;
+border-top: 2px #D8D8D8 solid;
+}
+.first {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.second {
+    grid-column: 6/8;
+    grid-row: 1/2;
+}
+.third {
+    grid-column: 9/11;
+    grid-row: 1/2;
+    }
+.fourth {
+    grid-column: 9/11;
+    grid-row: 2/4;
+}
+.fifth {
+    grid-column: 12/13;
+    grid-row: 1/2;
+}
+.sixth {
+    grid-column: 6/8;
+    grid-row: 6/7;
+}
+.seventh {
+    grid-column: 9/11;
+    grid-row: 6/7;
+}
+.eighth {
+    grid-column: 9/11;
+    grid-row: 7/9;
+}
+.ninth {
+    grid-column: 12/13;
+    grid-row: 6/7;
+}
